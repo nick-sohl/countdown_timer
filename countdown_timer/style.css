@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./_src/andreas-dress-OUSa9MU4zZc-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    min-width: 1000px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 5px 5px 25px rgb(0, 0, 0, 75%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+span {
+    font-size: 1rem;
+}
+
+.container-countdown {
+    display: flex;
+}
+.container-countdown > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 200px;
+}
+
+.big-text {
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
